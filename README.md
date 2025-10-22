@@ -1,4 +1,4 @@
-# Hometown Hero - Visit Hyderabad
+# ✨Hometown Hero - Visit Hyderabad🌟
 
 A modern, responsive webpage showcasing the vibrant city of Hyderabad with interactive elements and a beautiful design.
 
