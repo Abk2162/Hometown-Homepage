@@ -139,3 +139,63 @@ img {
 .border-blue {
     border: 1px dotted blue;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 15px;
+        min-height: 250px;
+    }
+    
+    .hero h1 {
+        font-size: 28px;
+    }
+    
+    .hero h2 {
+        font-size: 18px;
+    }
+    
+    #h2txt {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    .flex-wrapper {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .flex-wrapper > div {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .avatar {
+        width: 120px;
+        height: 150px;
+        margin: 0 auto 15px;
+    }
+    
+    /* Mobile Touch Effects - Tap to Activate */
+    .flex-wrapper > div:active {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .card:active {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+    
+    .hero h1:active,
+    .hero h2:active,
+    #h2txt:active {
+        transform: scale(1.02);
+    }
+}
