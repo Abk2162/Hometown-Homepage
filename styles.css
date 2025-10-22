@@ -1,0 +1,141 @@
+
+.hero {
+    background-image: url('images/7qaz.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    min-height: 320px;
+    color: #F1FAEE; /* light text for contrast */
+}
+
+.hero h1,
+.hero h2 {
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hero h1:hover,
+.hero h2:hover {
+    transform: scale(1.02);
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.9);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Metrophobic", sans-serif;
+    font-weight: 400;
+    background-color: #f9f7f3;
+}
+
+#h2txt {
+    background-color: #F1FAEE;
+    margin: 0;
+    padding: 20px;
+    color:#1D3557;
+    transition: transform 0.3s ease, letter-spacing 0.3s ease;
+    cursor: pointer;
+}
+
+#h2txt:hover {
+    transform: scale(1.01);
+    letter-spacing: 0.5px;
+}
+
+img {
+    width: 100px;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #F1FAEE;
+    padding: 40px 20px;
+    color:#1D3557;
+}
+
+.flex-wrapper > div {
+    max-width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.flex-wrapper > div:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
+
+.flex-wrapper p {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.img1, .img2, .img3 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.card {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background: #F1FAEE;
+    color: #1D3557;
+    border-radius: 15px;
+    border-bottom: 8px solid #457B9D;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #457B9D;
+    border-left: 1px solid #457B9D;
+    border-right: 1px solid #457B9D;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card p {
+    line-height: 1.6;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.card h4 {
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+
+.card > div {
+    text-align: left;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
